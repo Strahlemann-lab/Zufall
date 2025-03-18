@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Zufall" Height="375" Width="370" ResizeMode="NoResize">
     <Grid>
-        <Button Content="Zufall" VerticalAlignment="Top" Height="66" Click="Button_Click" RenderTransformOrigin="0.5,0.616" Margin="0,52,35,0" HorizontalAlignment="Right" Width="110" FontWeight="Bold" FontSize="16"/>
+        <Button x:Name="Button_Zufall" Content="Zufall" VerticalAlignment="Top" Height="66" Click="Button_Click" RenderTransformOrigin="0.5,0.616" Margin="0,52,35,0" HorizontalAlignment="Right" Width="110" FontWeight="Bold" FontSize="16"/>
         <ComboBox x:Name="ComboBox" HorizontalAlignment="Right" Margin="0,0,35,147" Width="110" SelectedIndex="0" Height="20" VerticalAlignment="Bottom">
             <ComboBoxItem Content="1"/>
             <ComboBoxItem Content="2"/>
@@ -59,9 +59,59 @@
             <ComboBoxItem Content="48"/>
             <ComboBoxItem Content="49"/>
             <ComboBoxItem Content="50"/>
+            <ComboBoxItem Content="51"/>
+            <ComboBoxItem Content="52"/>
+            <ComboBoxItem Content="53"/>
+            <ComboBoxItem Content="54"/>
+            <ComboBoxItem Content="55"/>
+            <ComboBoxItem Content="56"/>
+            <ComboBoxItem Content="57"/>
+            <ComboBoxItem Content="58"/>
+            <ComboBoxItem Content="59"/>
+            <ComboBoxItem Content="60"/>
+            <ComboBoxItem Content="61"/>
+            <ComboBoxItem Content="62"/>
+            <ComboBoxItem Content="63"/>
+            <ComboBoxItem Content="64"/>
+            <ComboBoxItem Content="65"/>
+            <ComboBoxItem Content="66"/>
+            <ComboBoxItem Content="67"/>
+            <ComboBoxItem Content="68"/>
+            <ComboBoxItem Content="69"/>
+            <ComboBoxItem Content="70"/>
+            <ComboBoxItem Content="71"/>
+            <ComboBoxItem Content="72"/>
+            <ComboBoxItem Content="73"/>
+            <ComboBoxItem Content="74"/>
+            <ComboBoxItem Content="75"/>
+            <ComboBoxItem Content="76"/>
+            <ComboBoxItem Content="77"/>
+            <ComboBoxItem Content="78"/>
+            <ComboBoxItem Content="79"/>
+            <ComboBoxItem Content="80"/>
+            <ComboBoxItem Content="81"/>
+            <ComboBoxItem Content="82"/>
+            <ComboBoxItem Content="83"/>
+            <ComboBoxItem Content="84"/>
+            <ComboBoxItem Content="85"/>
+            <ComboBoxItem Content="86"/>
+            <ComboBoxItem Content="87"/>
+            <ComboBoxItem Content="88"/>
+            <ComboBoxItem Content="89"/>
+            <ComboBoxItem Content="90"/>
+            <ComboBoxItem Content="91"/>
+            <ComboBoxItem Content="92"/>
+            <ComboBoxItem Content="93"/>
+            <ComboBoxItem Content="94"/>
+            <ComboBoxItem Content="95"/>
+            <ComboBoxItem Content="96"/>
+            <ComboBoxItem Content="97"/>
+            <ComboBoxItem Content="98"/>
+            <ComboBoxItem Content="99"/>
+            <ComboBoxItem Content="100"/>
         </ComboBox>
         <Rectangle HorizontalAlignment="Left" Height="100" Margin="35,35,0,0" Stroke="#00867373" VerticalAlignment="Top" Width="134" RadiusX="10" RadiusY="10" StrokeThickness="0" Fill="#FFBDBDBD"/>
-        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" x:Name="ZahlLabel" Content="0" HorizontalAlignment="Left" Margin="60,35,0,0" VerticalAlignment="Top" Height="83" Width="85" FontSize="60" FontWeight="UltraBold"/>
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" x:Name="ZahlLabel" Content="0" HorizontalAlignment="Left" Margin="45,35,0,0" VerticalAlignment="Top" Height="83" Width="115" FontSize="60" FontWeight="UltraBold"/>
         <ListView x:Name="ListView" Margin="35,0,0,35" Height="132" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="134" ScrollViewer.VerticalScrollBarVisibility="Auto">
 
         </ListView>
